@@ -10,7 +10,7 @@ RUN mvn clean install
 
 FROM openjdk:17-jdk-slim
 
-EXPOSE 3306
+EXPOSE 8080
 
 COPY --from=build /target/todolis-1.0.0.jar app.jar
 
