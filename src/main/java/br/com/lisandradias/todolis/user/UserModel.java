@@ -15,7 +15,7 @@ import lombok.Data;
 @Entity(name = "tb_users")
 public class UserModel {
 
-    @Id
+@Id
 @GeneratedValue(generator = "UUID")
     private UUID id;
 
